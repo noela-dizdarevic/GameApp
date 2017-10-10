@@ -26,6 +26,7 @@ public class MainActivity extends AppCompatActivity {
 
     public void dropIn(View view) {
 
+        
         ImageView counter = (ImageView) view;
 
 
@@ -40,7 +41,7 @@ public class MainActivity extends AppCompatActivity {
             if (activePlayer == 0) {
                 counter.setTranslationY(-1000f);
 
-                counter.setImageAlpha(0);
+                
 
                 counter.setImageResource(R.drawable.oimages);
 
